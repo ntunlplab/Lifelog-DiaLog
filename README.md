@@ -37,9 +37,7 @@ Each entry in the JSON format is consisted of "dialog_id" (the id of the dialog 
 ```
 
 # Download
-To download the dataset, please click this link to the dataset page.
-[Resources page](http://nlg.csie.ntu.edu.tw/nlpresource/DiaLog/)
-
+Please go to [resources page](http://nlg.csie.ntu.edu.tw/nlpresource/DiaLog/) to access resources.
 
 # How to Cite the Corpus
 Please cite the following papers when referring to the DiaLog in academic publications and papers.

@@ -1,15 +1,15 @@
 # Lifelog_DiaLog
 A Lifelog Dataset for Life Event Detection from Daily Dialog
 
-#Introduction
+# Introduction
 Conversation, a common way for people to share their experiences and feelings with others, consists of important information about personal life events of individuals, but is rarely explored. In this dataset, we initiate a task of detecting personal life events from daily conversaion. We extend a multi-turn dialog dataset, DailyDialog, with life event annotation. We collect 600 conversations with 4-6 utterances from 4 topics of DailyDialog. Our goal is to detect the life events of each speaker in real-time.
 
-#Format
+# Format
 Each entry in the JSON format is consisted of "dialog_id" (the id of the dialog from DailyDialog), "turns" (the total turns of the dialog), and "events" (annotated result).
 
 "events" is consist of the real-time life events of each speaker. "S1" and "S2" in "events" represent the two speakers in the conversation and the life event is according to FrameNet ontology.
 
-#Example
+# Example
 
 ```json
 {
@@ -36,12 +36,12 @@ Each entry in the JSON format is consisted of "dialog_id" (the id of the dialog 
 }
 ```
 
-#Download
+# Download
 To download the dataset, please click this link to the dataset page.
 [Resources page](http://nlg.csie.ntu.edu.tw/nlpresource/DiaLog/)
 
 
-#How to Cite the Corpus
+# How to Cite the Corpus
 Please cite the following papers when referring to the DiaLog in academic publications and papers.
 
 Pei-Wei Kao, An-Zi Yen, Hen-Hsen Huang, and Hsin-Hsi Chen. 2021. ConvLogMiner: A Real-Time Conversational Lifelog Miner. In Proceedings of the 30th International Joint Conference on Artificial Intelligence.

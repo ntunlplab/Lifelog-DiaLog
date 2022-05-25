@@ -1,5 +1,5 @@
-# Lifelog_DiaLog
-A Lifelog Dataset for Life Event Detection from Daily Dialog
+# DiaLog: A Lifelog Dataset for Life Event Detection from Daily Dialog
+
 
 # Introduction
 Conversation, a common way for people to share their experiences and feelings with others, consists of important information about personal life events of individuals, but is rarely explored. In this dataset, we initiate a task of detecting personal life events from daily conversaion. We extend a multi-turn dialog dataset, DailyDialog, with life event annotation. We collect 600 conversations with 4-6 utterances from 4 topics of DailyDialog. Our goal is to detect the life events of each speaker in real-time.

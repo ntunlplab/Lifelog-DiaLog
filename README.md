@@ -11,7 +11,7 @@ Each entry in the JSON format is consisted of "dialog_id" (the id of the dialog 
 
 # Example
 
-```json
+```yaml
 {
     "dialog_id": 6,
     "turns": 4,

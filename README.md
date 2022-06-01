@@ -37,7 +37,10 @@ Each entry in the JSON format is consisted of "dialog_id" (the id of the dialog 
 ```
 
 # Download
-Please go to [resources page](http://nlg.csie.ntu.edu.tw/nlpresource/DiaLog/) to access resources.
+First click [here](https://www.aclweb.org/anthology/I17-1099/) to download the original dataset, DailyDialog, then click [here](http://nlg.csie.ntu.edu.tw/nlpresource/DiaLog/DiaLog_v1.zip) to download the DiaLog.
+
+The file ```preprocess.py``` in the zip file is an example to format ```DiaLog.json``` into ```train.csv``` and ```test.csv```.</br>
+Run ```python3 preprocess.py [DailyDialog_Dir]``` to generate the two files.
 
 # How to Cite the Corpus
 Please cite the following papers when referring to the DiaLog in academic publications and papers.
